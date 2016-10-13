@@ -1,0 +1,43 @@
+.pdesigns-content {
+	.even-pdesigns-div {
+		color: #F5F5F5;
+		background-color: #b0c7d4;
+	}
+	h4 {
+		margin-bottom: 20px;
+		font-weight: 700;
+		font-size: 1.6em;
+	}
+
+	.pdesigns-text {
+		padding-bottom: 10px;
+	}
+
+	.bulk-rvm {
+		h5 {
+			text-align: center;
+			font-size: 1.2em;
+			padding-bottom: 10px;
+		}
+	}
+	.transition {
+		img {
+			height: 300px;
+			width: 100%;
+		}
+		a {
+			color: #F5F5F5;
+			&:hover,&:focus {
+				text-decoration: none;
+				color: #73B28B;
+			}
+		}
+		h5 {
+			text-align: center;
+			font-size: 1.2em;
+			padding-bottom: 10px;
+		}
+	}
+}
+
+

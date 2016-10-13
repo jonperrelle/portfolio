@@ -1,0 +1,46 @@
+.resume-content {
+	background-color: #F5F5F5;
+	border: 2px solid #3a424c;
+	border-radius: 20px;
+	padding: 0 20px 20px 20px;
+	color: #3a424c;
+}
+
+.resume-content {
+	h3 {
+		color: #73B28B;
+		&:hover {
+			cursor:pointer;
+			opacity: .5;
+		}
+	}
+}
+
+.resume-content h4 {
+	font-size: 1.5em;
+	font-weight: 700;
+	margin: 20px 0;
+}
+
+.resume-content h5 {
+	font-weight: 700;
+	margin-bottom: 20px;
+}
+
+.resume-content a {
+	color: #73B28B;
+	&:hover,&:focus {
+		text-decoration: none;
+		opacity: .5;
+	}
+}
+
+
+#skills p {
+	text-align: left;
+}
+
+.header h3 {
+	padding-bottom: 15px;
+	color: #605c5c;
+}

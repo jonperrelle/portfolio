@@ -1,0 +1,96 @@
+home .home-image {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 400px;
+	background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url('images/background2.jpg');
+  	background-repeat: no-repeat;
+  	background-size: 100% 100%;
+  	background-attachment: fixed;
+  	z-index: -1;
+
+}
+
+.home-intro {
+	margin-top: 220px;
+	margin-bottom: 50px;
+	z-index: 200;
+}
+
+.headshot {
+	height: 200px;
+	width: 200px;
+	border-radius: 100px;
+	border: 5px solid #3a424c;
+}
+
+.about {
+	color: #F5F5F5;
+	background-color: #b0c7d4;
+	padding-bottom: 20px;
+}
+
+.contact a {
+	color: #b0c7d4;
+}
+
+.contact a:hover,
+.contact a:focus {
+	text-decoration: none;
+	color: #73B28B;
+}
+
+.contact-form {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+}
+
+.contact-form input,
+.contact-form textarea {
+	width: 80%;
+	margin: 10px 0;
+	border: none;
+	background-color: #3a424c;
+	color: #F5F5F5;
+	line-height: 1.4;
+	padding: 10px 10px;
+}
+
+.contact-form textarea {
+	height: 200px;
+	resize: none;
+}
+
+.contact-form input:hover,
+.contact-form input:focus,
+.contact-form textarea:hover,
+.contact-form textarea:focus {
+	outline: none;
+}
+
+.send-email {
+	flex: 1;
+	position: relative;
+	padding-bottom: 10px;
+}
+
+.send-email-btn {
+	background-color: transparent;
+	border: 1px solid #3a424c;
+	height: 100px;
+	width: 100px;
+	border-radius: 50px;
+	position: absolute;
+	bottom: 12px;
+	left: 15px;
+}
+
+.send-email-btn:hover,
+.send-email-btn:focus,
+.send-email-btn:active {
+	outline: none;
+	background-color: #3a424c;
+	color: #F5F5F5;
+}

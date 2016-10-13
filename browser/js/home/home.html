@@ -1,0 +1,70 @@
+<section>
+	<div class="home-image"></div>
+	<div class="container-fluid">
+		<div class="row home-intro text-center">
+			<img class="headshot" src="images/headshot.jpg" />
+			<header>
+				<h1>JONATHAN PERRELLE</h1>
+			</header>
+			<div>
+				<h3>Aspiring Product Manager / Software Developer / Attorney / Entrepreneur </h3>
+			</div>
+		</div>
+		<div class="row text-center about" id="about">
+			<header>
+				<h2>About Me</h2>
+			</header>
+			<div>
+				<div class="col-sm-2"></div>
+				<div class="col-sm-8">
+					<p>I love building innovative and meaningful products and am looking for opportunities to join an innovative and fast-paced product management team.   I am currently working as a full stack developer at RUIn Gaming, a start-up developing a game scheduling web application.  I also oversee the operation of Perrelle Designs, a home decor manufacturing and retail business that I founded.   Prior to becoming a developer, I practiced as a litigation attorney for over five years in New York.</p>
+					<br>
+					<p>When not working, I love being outdoors, cooking, playing games and watching movies.   My ideal day would start with a round of golf, continue with a backyard barbeque with friends, and finish with a good movie.
+					</p>
+				</div>
+				<div class="col-sm-2"></div>
+			</div>
+		</div>
+		<div class="row text-center contact" id="contact">
+			<div class="col-sm-2"></div>
+			<div class="col-sm-8">
+				<header>
+					<h2>Contact Me</h2>
+				</header>
+				<div>
+					<h4>Submit your question below, or email me @ <a href="mailto:jonperrelle@gmail.com">jonperrelle@gmail.com</a></h4>
+					<form name="contactForm" ng-submit="contactForm.$valid && sendEmail(visitor)" class="contact-form" novalidate>
+						<div class="col-sm-8">
+							<div>
+					            <input type="text" name="name" placeholder="Name" ng-model="visitor.name" required>
+					            <div ng-messages="contactForm.name.$error" ng-if="contactForm.$submitted">
+					                <div ng-message="required" class="text-danger">Pleae enter your name!</div>
+					            </div>
+					        </div>
+					        <div>
+					            <input type="email" placeholder="Email" ng-model="visitor.email" name="email" id="email" ng-pattern="/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/" required>
+					            <div ng-messages="contactForm.email.$error" ng-if="contactForm.$submitted">
+					                <div ng-message="required" class="text-danger">Please enter your email!</div>
+					                <div ng-message="pattern" class="text-danger">Must be a valid email</div>
+					            </div>
+					        </div>
+					        <div>
+					            <input type="text" name="subject" placeholder="Subject" ng-model="visitor.subject">
+					        </div>
+					       	<div>
+					            <textarea name="message" placeholder="Message" ng-model="visitor.message" required></textarea>
+					            <div ng-messages="contactForm.message.$error" ng-if="contactForm.$submitted">
+					                <div ng-message="required" class="text-danger">Please include a message!</div>
+					            </div>
+					        </div>
+					    </div>
+					    <div class="col-sm-4 send-email">
+				            <button type="submit" class="send-email-btn"><i class="fa fa-4x fa-paper-plane" aria-hidden="true"></i></button>
+					    </div>
+			        </form>
+				</div>
+			</div>
+			<div class="col-sm-3"></div>
+		</div>
+	</div>
+</section>

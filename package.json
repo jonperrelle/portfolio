@@ -1,0 +1,36 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon -e html,js,css ./index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-livereload": "^3.8.1",
+    "gulp-notify": "^2.2.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.3.2",
+    "gulp-sourcemaps": "^1.7.3",
+    "nodemon": "^1.11.0",
+    "run-sequence": "^1.2.2"
+  },
+  "dependencies": {
+    "angular": "^1.5.8",
+    "angular-messages": "^1.5.8",
+    "angular-ui-router": "^0.3.1",
+    "bootstrap": "^3.3.7",
+    "express": "^4.14.0",
+    "font-awesome": "^4.6.3",
+    "jquery": "^3.1.1",
+    "node-sass-middleware": "^0.9.8",
+    "nodemailer": "^2.6.4",
+    "path": "^0.12.7",
+    "serve-favicon": "^2.3.0"
+  }
+}

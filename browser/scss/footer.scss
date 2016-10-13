@@ -1,0 +1,27 @@
+footer {
+	background-color: #3a424c;
+	font-family: 'Gloria Hallelujah', sans-serif;
+	padding-bottom: 20px;
+	color: #F5F5F5;
+}
+
+footer ul {
+	padding-top: 20px;
+	margin-bottom: 0;
+}
+
+footer li {
+	display: inline-block;
+	font-size: 1.2em;
+	margin: 0 10px;
+}
+
+footer a {
+	color: #F5F5F5;
+}
+
+footer a:hover,
+footer a:focus {
+	text-decoration: none;
+	color: #73B28B;
+}

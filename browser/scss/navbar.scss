@@ -1,0 +1,33 @@
+navbar a {
+    font-family: 'Gloria Hallelujah', sans-serif;
+	color: #605c5c;
+}
+
+.navbar {
+	text-align: center;
+}
+
+.navbar .nav {
+	float: none;
+}
+
+.navbar .nav li {
+	display: inline-block;
+	float: none;
+	margin: 0 10px;
+	font-size: 1.2em;
+}
+
+.icon-bar {
+    background: #8ce2a6;
+}
+
+.navbar-toggle {
+    border: 1px solid #3a424c;
+}
+
+.nav > li > a:hover,
+.nav > li > a:focus {
+  background-color: transparent;
+  color: #73B28B;
+}

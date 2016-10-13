@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <base href="/" />
+    <title>Jon Perrelle</title>
+
+    <link rel="stylesheet" type="text/css" href="/bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="/font-awesome/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Assistant:300,400,700,800|Gloria+Hallelujah" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/main.css" />
+
+    <script src="/jquery/dist/jquery.js"></script>
+    <script src="/bootstrap/dist/js/bootstrap.js"></script>
+
+    <script src="/angular/angular.js"></script>
+    <script src="/angular-ui-router/release/angular-ui-router.js"></script>
+    <script src="/angular-messages/angular-messages.min.js"></script>
+    <script src="/js/app.js"></script>
+
+    <script src="/js/home/home.component.js"></script>
+    <script src="/js/home/home.js"></script>
+    <script src="/js/resume/resume.component.js"></script>
+    <script src="/js/resume/resume.js"></script>
+    <script src="/js/portfolio/portfolio.component.js"></script>
+    <script src="/js/portfolio/portfolio.js"></script>
+    <script src="/js/pdesigns/pdesigns.component.js"></script>
+    <script src="/js/pdesigns/pdesigns.js"></script>
+    <script src="/js/navbar/navbar.directive.js"></script>
+    <script src="/js/footer/footer.directive.js"></script>
+    <script src="/js/portfolio-header/portfolio-header.directive.js"></script>
+</head>
+
+<body ng-app="Portfolio">
+    <navbar></navbar>
+    <div id="main" ui-view></div>
+    <footer></footer>
+</body>
+</html>
