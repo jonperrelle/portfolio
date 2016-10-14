@@ -20,11 +20,102 @@
 			padding-bottom: 10px;
 		}
 	}
-	.transition {
-		img {
+
+	.rebrand {
+		margin-bottom: 20px;
+		.proto {
+			display:inline-block;
+			position: relative;
+			vertical-align: top;
 			height: 300px;
-			width: 100%;
+			width: 50%;
+			background-image: url('images/a.proto.2.jpg');
+		  	background-repeat: no-repeat;
+		  	background-size: cover;
+		  	background-position: center;
 		}
+		.elephant {
+			display:inline-block;
+			position: relative;
+			vertical-align: top;
+			height: 300px;
+			width: 50%;
+			background-image: url('images/elephant.png');
+		  	background-repeat: no-repeat;
+		  	background-size: cover;
+		  	background-position: center;
+
+		}
+		h5 {
+			width: 100%;
+			text-align: center;
+		}
+		.proto h5 {
+			position: absolute;
+			bottom: 16px;
+		}
+		.elephant h5 {
+			position: absolute;
+			bottom: 0;
+		}
+	}
+
+
+	.growth {
+		.homepage-image {
+			display: inline-block;
+			vertical-align: top;
+			height: 200px;
+			width: 50%;
+			background-image: url('images/pdesigns.homepage.png');
+		  	background-repeat: no-repeat;
+		  	background-size: cover;
+		  	background-position: center;
+		  	border-right: 1px solid #3a424c;
+		  	border-bottom: 1px solid #3a424c;
+		}
+		.etsy-image {
+			display: inline-block;
+			vertical-align: top;
+			height: 200px;
+			width: 50%;
+			background-image: url('images/etsy.png');
+		  	background-repeat: no-repeat;
+		  	background-size: cover;
+		  	background-position: center;
+		  	border-bottom: 1px solid #3a424c;
+
+		}
+		.amazon-image {
+			display: inline-block;
+			vertical-align: top;
+			height: 200px;
+			width: 50%;
+			background-image: url('images/amazon.png');
+		  	background-repeat: no-repeat;
+		  	background-size: cover;
+		  	background-position: center;
+		  	border-right: 1px solid #3a424c;
+		}
+		.houzz-image {
+			display: inline-block;
+			vertical-align: top;
+			height: 200px;
+			width: 50%;
+			background-image: url('images/houzz.png');
+		  	background-repeat: no-repeat;
+		  	background-size: cover;
+		  	background-position: center;
+		}
+		.overlay {
+			width: 100%;
+			height: 100%;
+			background-color: rgba(58, 66, 76, 0.95);
+			overflow: scroll;
+			color: #F5F5F5;
+			text-align: center;
+		}
+
 		a {
 			color: #F5F5F5;
 			&:hover,&:focus {
@@ -32,6 +123,24 @@
 				color: #73B28B;
 			}
 		}
+
+		.pdesigns-btn {
+			height: 40px;
+			width: 70%;
+			background-color: #F5F5F5;
+			color: #3a424c;
+			border: none;
+			font-size: 1.2em;
+			margin: 80px 5px 0 5px;
+			&:hover,&:focus {
+				outline: none;
+				background-color: #3a424c;
+				border: 2px solid #F5F5F5;
+				color: #F5F5F5;
+			}
+
+		}
+
 		h5 {
 			text-align: center;
 			font-size: 1.2em;
