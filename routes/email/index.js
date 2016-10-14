@@ -2,7 +2,7 @@
 
 const router = require('express').Router();
 const nodemailer = require('nodemailer');
-const credentials = require('../../env').nodemailer;
+const credentials = require('../../env').NODEMAILER;
 // const transporter = nodemailer.createTransport('smtps://'+credentials.from+':'+credentials.password);
 // const transporter = nodemailer.createTransport({
 //   service: credentials.service,
