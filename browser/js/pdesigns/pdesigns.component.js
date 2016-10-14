@@ -2,8 +2,6 @@
 
 function PDesignsController() {
 
-    let ctrl = this;
-
 }
 
 app.component('pdesigns', {

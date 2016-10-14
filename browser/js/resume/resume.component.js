@@ -2,8 +2,6 @@
 
 function ResumeController() {
 
-    let ctrl = this;
-
 }
 
 app.component('resume', {

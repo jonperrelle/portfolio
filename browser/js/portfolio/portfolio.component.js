@@ -2,8 +2,6 @@
 
 function PortfolioController() {
 
-    let ctrl = this;
-
 }
 
 app.component('portfolio', {

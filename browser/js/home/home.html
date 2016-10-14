@@ -17,9 +17,9 @@
 			<div>
 				<div class="col-sm-2"></div>
 				<div class="col-sm-8">
-					<p>I love building innovative and meaningful products and am looking for opportunities to join an innovative and fast-paced product management team.   I am currently working as a full stack developer at RUIn Gaming, a start-up developing a game scheduling web application.  I also oversee the operation of Perrelle Designs, a home decor manufacturing and retail business that I founded.   Prior to becoming a developer, I practiced as a litigation attorney for over five years in New York.</p>
+					<p>I love building innovative and meaningful products and am looking for opportunities to join an innovative and fast-paced product management team.   I am currently working as a full stack developer at RUIn Gaming, a start-up developing a game scheduling web application.  I also oversee some of the operations of Perrelle Designs, a home decor manufacturing and retail business that I founded.   Prior to becoming a developer, I practiced as a litigation attorney for over five years in New York.</p>
 					<br>
-					<p>When not working, I love being outdoors, cooking, playing games and watching movies.   My ideal day would start with a round of golf, continue with a backyard barbeque with friends, and finish with a good movie.
+					<p>When not working, I love being outdoors, cooking, playing games and watching movies.   My ideal day would include a round of golf, backyard barbeque, and a good movie.
 					</p>
 				</div>
 				<div class="col-sm-2"></div>
@@ -33,26 +33,26 @@
 				</header>
 				<div>
 					<h4>Submit your question below, or email me @ <a href="mailto:jonperrelle@gmail.com">jonperrelle@gmail.com</a></h4>
-					<form name="contactForm" ng-submit="contactForm.$valid && sendEmail(visitor)" class="contact-form" novalidate>
+					<form name="contactForm" ng-submit="contactForm.$valid && $ctrl.sendEmail(email)" class="contact-form" novalidate>
 						<div class="col-sm-8">
 							<div>
-					            <input type="text" name="name" placeholder="Name" ng-model="visitor.name" required>
+					            <input type="text" name="name" placeholder="Name" ng-model="email.name" required>
 					            <div ng-messages="contactForm.name.$error" ng-if="contactForm.$submitted">
 					                <div ng-message="required" class="text-danger">Pleae enter your name!</div>
 					            </div>
 					        </div>
 					        <div>
-					            <input type="email" placeholder="Email" ng-model="visitor.email" name="email" id="email" ng-pattern="/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/" required>
+					            <input type="email" placeholder="Email" ng-model="email.email" name="email" id="email" ng-pattern="/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/" required>
 					            <div ng-messages="contactForm.email.$error" ng-if="contactForm.$submitted">
 					                <div ng-message="required" class="text-danger">Please enter your email!</div>
 					                <div ng-message="pattern" class="text-danger">Must be a valid email</div>
 					            </div>
 					        </div>
 					        <div>
-					            <input type="text" name="subject" placeholder="Subject" ng-model="visitor.subject">
+					            <input type="text" name="subject" placeholder="Subject" ng-model="email.subject">
 					        </div>
 					       	<div>
-					            <textarea name="message" placeholder="Message" ng-model="visitor.message" required></textarea>
+					            <textarea name="message" placeholder="Message" ng-model="email.message" required></textarea>
 					            <div ng-messages="contactForm.message.$error" ng-if="contactForm.$submitted">
 					                <div ng-message="required" class="text-danger">Please include a message!</div>
 					            </div>

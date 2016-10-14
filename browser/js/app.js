@@ -1,6 +1,6 @@
 'use strict';
 
-window.app = angular.module('Portfolio', ['ui.router', 'ngMessages']);
+window.app = angular.module('Portfolio', ['ui.router', 'ngMessages', 'toastr']);
 
 app.config(function ($urlRouterProvider, $locationProvider) {
     // This turns off hashbang urls

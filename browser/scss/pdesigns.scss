@@ -1,6 +1,5 @@
 .pdesigns-content {
 	.even-pdesigns-div {
-		color: #F5F5F5;
 		background-color: #b0c7d4;
 	}
 	h4 {
@@ -49,14 +48,10 @@
 		h5 {
 			width: 100%;
 			text-align: center;
-		}
-		.proto h5 {
-			position: absolute;
-			bottom: 16px;
-		}
-		.elephant h5 {
+			font-weight: 700;
 			position: absolute;
 			bottom: 0;
+			color: #F5F5F5;
 		}
 	}
 
