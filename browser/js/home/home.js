@@ -3,7 +3,8 @@
 app.config(function($stateProvider) {
     $stateProvider.state('home', {
         url: '/',
-        template: '<home></home>',
+        templateUrl: 'js/home/home.html',
+        controller: 'HomeController',
         params: {
         	scrollTo: null
         }

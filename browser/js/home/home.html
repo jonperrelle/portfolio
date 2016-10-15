@@ -30,7 +30,7 @@
 					<h4>Submit your question below, or email me @ <a href="mailto:jonperrelle@gmail.com">jonperrelle@gmail.com</a></h4>
 				</header>
 				<div>
-					<form name="contactForm" ng-submit="contactForm.$valid && $ctrl.sendEmail(email)" class="contact-form" novalidate>
+					<form name="contactForm" ng-submit="contactForm.$valid && sendEmail(email)" class="contact-form" novalidate>
 						<div class="col-xs-12">
 							<div>
 					            <input type="text" name="name" placeholder="Name" ng-model="email.name" required>
