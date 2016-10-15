@@ -2,14 +2,14 @@
 
 function HomeController($stateParams, $location, $anchorScroll, $http, toastr) {
 
-    // let ctrl = this;
+    let ctrl = this;
 
-    // ctrl.$onInit = function () {
-    // 	if ($stateParams.scrollTo) {
-    // 		$location.hash($stateParams.scrollTo);
-    // 		$anchorScroll();
-    // 	}
-    // };
+    ctrl.$onInit = function () {
+    	if ($stateParams.scrollTo) {
+    		$location.hash($stateParams.scrollTo);
+    		$anchorScroll();
+    	}
+    };
 
     // ctrl.sendEmail = function (email) {
     //     $http.post('/api/email', email)
