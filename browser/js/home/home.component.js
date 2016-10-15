@@ -1,15 +1,15 @@
 'use strict';
 
-function HomeController($stateParams, $location, $anchorScroll, $http, toastr) {
+function HomeController ($stateParams, $location, $anchorScroll, $http, toastr) {
 
     let ctrl = this;
 
-    // ctrl.$onInit = function () {
-    // 	if ($stateParams.scrollTo) {
-    // 		$location.hash($stateParams.scrollTo);
-    // 		$anchorScroll();
-    // 	}
-    // };
+    ctrl.$onInit = function () {
+    	if ($stateParams.scrollTo) {
+    		$location.hash($stateParams.scrollTo);
+    		$anchorScroll();
+    	}
+    };
 
     ctrl.sendEmail = function (email) {
         $http.post('/api/email', email)
@@ -21,8 +21,9 @@ function HomeController($stateParams, $location, $anchorScroll, $http, toastr) {
         });
     };
 
-}
-app.component('home', {
+};
+
+angular.module('Portfolio').component('home', {
     templateUrl: 'js/home/home.html',
     controller: HomeController
 });
