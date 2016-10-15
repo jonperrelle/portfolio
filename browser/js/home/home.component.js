@@ -1,6 +1,6 @@
 'use strict';
 
-function HomeController ($stateParams, $location, $anchorScroll, $http, toastr) {
+let HomeController = function ($stateParams, $location, $anchorScroll, $http, toastr) {
 
     let ctrl = this;
 
