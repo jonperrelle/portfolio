@@ -1,5 +1,5 @@
 <div class="row">
-  <nav class="navbar navbar-static-top text-center" id="top-menu" role="navigation">
+  <nav class="navbar text-center" id="top-menu" role="navigation">
     <div class="container-fluid">
       <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-target="#navbarCollapse" data-toggle="collapse">
@@ -10,12 +10,12 @@
       </div>
       <div class="collapse navbar-collapse" id="navbarCollapse">
         <ul class="nav navbar-nav">
-          <li><a ui-sref="home({scrollTo:null})">Home</a></li>
-          <li><a ui-sref="home({scrollTo:'about'})">About</a></li>
-          <li><a ui-sref="resume">Resume</a></li>
-          <li><a ui-sref="portfolio">Portfolio</a></li>
-          <li><a ui-sref="pdesigns">Perrelle Designs</a></li>
-          <li><a ui-sref="home({scrollTo:'contact'})">Contact</a></li>
+          <li><a data-toggle="collapse" data-target=".navbar-collapse" ui-sref="home({scrollTo:null})">Home</a></li>
+          <li><a data-toggle="collapse" data-target=".navbar-collapse" ui-sref="home({scrollTo:'about'})">About</a></li>
+          <li><a data-toggle="collapse" data-target=".navbar-collapse" ui-sref="resume">Resume</a></li>
+          <li><a data-toggle="collapse" data-target=".navbar-collapse" ui-sref="portfolio">Portfolio</a></li>
+          <li><a data-toggle="collapse" data-target=".navbar-collapse" ui-sref="pdesigns">Perrelle Designs</a></li>
+          <li><a data-toggle="collapse" data-target=".navbar-collapse" ui-sref="home({scrollTo:'contact'})">Contact</a></li>
         </ul>
       </div>
     </div>

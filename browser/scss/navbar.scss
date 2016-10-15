@@ -19,15 +19,31 @@ navbar a {
 }
 
 .icon-bar {
-    background: #8ce2a6;
-}
-
-.navbar-toggle {
-    border: 1px solid #3a424c;
+    background: #3a424c;
 }
 
 .nav > li > a:hover,
 .nav > li > a:focus {
   background-color: transparent;
   color: #73B28B;
+}
+
+.white-bg {
+	background-color: #F5F5F5;
+}
+
+@media only screen and (max-width: 768px) {
+	.navbar {
+		position: absolute;
+		top: 0px;
+		right: 0px;
+		z-index: 9999;
+	}
+	.navbar-collapse {
+		background-color: #F5F5F5;
+		border: 1px solid #3a424c;
+	}
+	.navbar .nav li {
+		display: block;
+	}
 }
