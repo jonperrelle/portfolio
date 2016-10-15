@@ -3,8 +3,8 @@
 if (process.env.NODE_ENV === 'production') {
     module.exports = {
     	"NODEMAILER": {
-    		"from": process.env.NODERMAILER_FROM,
-	    	"password": process.env.NODERMAILER_PASSWORD
+    		"from": process.env.NODEMAILER_FROM,
+	    	"password": process.env.NODEMAILER_PASSWORD
     	}
     }
 } else {
