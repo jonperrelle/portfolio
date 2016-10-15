@@ -8,3 +8,11 @@ portfolio-header {
 		border-top: 1px solid #3a424c;
 	}
 }
+
+@media only screen and (max-width: 768px) {
+	portfolio-header {
+		h2 {
+			margin-top: 50px;
+		}
+	}
+}
