@@ -6,6 +6,7 @@
 	background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url('images/background2.jpg');
   	background-repeat: no-repeat;
   	background-attachment: fixed;
+  	background-size: 100% 100%;
   	z-index: -1;
 
 }
@@ -14,6 +15,15 @@
 	margin-top: 220px;
 	margin-bottom: 50px;
 	z-index: 200;
+}
+
+@media only screen and (max-width: 500px) {
+	.home-image {
+		background-size: contain;
+	}
+	.home-intro {
+		margin-top: 170px;
+	}
 }
 
 .headshot {
