@@ -39,13 +39,6 @@ home .home-image {
 	color: #73B28B;
 }
 
-.contact-form {
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  overflow: hidden;
-}
-
 .contact-form input,
 .contact-form textarea {
 	width: 80%;
@@ -69,11 +62,6 @@ home .home-image {
 	outline: none;
 }
 
-.send-email {
-	flex: 1;
-	position: relative;
-	padding-bottom: 10px;
-}
 
 .send-email-btn {
 	background-color: transparent;
@@ -81,9 +69,6 @@ home .home-image {
 	height: 100px;
 	width: 100px;
 	border-radius: 50px;
-	position: absolute;
-	bottom: 12px;
-	left: 15px;
 }
 
 .send-email-btn:hover,

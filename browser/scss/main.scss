@@ -6,6 +6,10 @@
 @import "portfolio";
 @import "portfolio-header";
 
+* {
+  box-sizing: border-box;
+}
+
 body {
 	background-color: #F5F5F5;
 	color: #3a424c;
